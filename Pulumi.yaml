@@ -1,0 +1,10 @@
+name: testing_API
+runtime:
+  name: python
+  options:
+    toolchain: uv
+description: Using to POC pulumi to create FastAPI
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/a527e29e-e664-4a70-9d68-bb812efd8c18.zip
